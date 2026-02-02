@@ -33,8 +33,8 @@ pip install pillow
 ```
 jpg-compressor-py/
 │
-├── compress.py        # Main script for compression
-└── README.md          # Project documentation
+├── jpg-compressor.py       # Main script for compression
+└── README.md               # Project documentation
 ```
 
 ---
@@ -43,11 +43,11 @@ jpg-compressor-py/
 
 ### 1. Update your folder paths
 
-Edit the following lines in `compress.py` to match your system:
+Edit the following lines in `jpg-compressor.py` to match your system:
 
 ```python
-source_folder = r"C:\input\folder\path\name"           # Input folder with original JPGs
-destination_folder = r"C:\output\folder\path\name"     # Output folder for compressed images
+source_folder = r"C:\input\folder\path\input-folder-name"        # Replace with Input folder/path with original JPGs
+destination_folder = r"C:\output\folder\path\output-folder-name" # Replace with Output folder/path for compressed images
 ```
 
 ### 2. Adjust compression settings (optional)
@@ -60,7 +60,7 @@ resize_percent = 25       # Resize to 25% of original (set None or 100 to skip r
 ### 3. Run the script
 
 ```bash
-python compress.py
+python jpg-compressor.py
 ```
 
 You’ll see a log of each file processed:
