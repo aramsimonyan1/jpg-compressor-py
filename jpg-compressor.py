@@ -57,7 +57,7 @@ def batch_compress_jpg(input_dir, output_dir, quality, resize_percent=None):
 if __name__ == "__main__":
     source_folder = r"C:\Users\simon\Desktop\im"   # Folder with original JPGs
     destination_folder = r"C:\Users\simon\Desktop\im_compressed"  # Folder for compressed JPGs
-    compression_quality = 80  # Lower = smaller file, but less quality
-    resize_percent = 50       # e.g., 50% of original size (set None or 100 for no resizing)
+    compression_quality = 85  # Lower = smaller file, but less quality
+    resize_percent = 40       # e.g., 50% of original size (set None or 100 for no resizing)
 
     batch_compress_jpg(source_folder, destination_folder, compression_quality, resize_percent)
